@@ -1,45 +1,108 @@
-<!DOCTYPE html> <!-- Hello world-->
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>This is my tenth web page</title>
+    <title>Portafolio Profesional</title>
     <link rel="stylesheet" href="css/main.css">
-    
 </head>
 
 <body>
-    <header> <!--ENCABEZADO DE LA PAGINA WEB-->
-        <div align="center">Hello!!!</div>
-        <marquee><i>This is epic</i></marquee>
+    <header>
+
+        <h1>Portafolio Profesional</h1>
+        <p>Hello!!!</p>
+        <p><em>Este es mi portafolio web</em></p>
     </header>
-
-    <button><a href="https://www.xbox.com/es-mx?msockid=20d034cf04dd602c204c22aa05cb61a3">Xbox</a></button>
+    <nav>
+        <a href="#Proyecto">Proyectos</a>
     </nav>
-    <h1> Portafolio Profesional</h1>
-
-   
     <main>
-        <h2><u> Bienvenidos a mi portafolio profesional</u></h2>
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
-            aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-            dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
-            sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore
-            magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-            suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in
-            ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas
-            nulla pariatur?</p>
-            <input type="image" src="images\foto-perfil.jpg" id="foto-perfil">
+        <section>
+            <h2>Bienvenidos a mi portafolio profesional</h2>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+                rem
+                aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                explicabo.
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+                dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
+                dolor
+                sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et
+                dolore
+                magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
+                qui in
+                ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas
+                nulla pariatur?</p>
+            <img src="images/foto-perfil.jpg" id="foto-perfil" alt="Foto de perfil">
         </section>
-        <b> HOLAAA</b>
-        <h4> Mi nombre es<mark> Rendón Cocom Saúl Alejandro, </mark> <strong> en Tecnologías de la información </strong>
-        </h4>
-        <p><small>Mi frase favorita es <em>"Stay Strong"</em> </small></p>
+        <section id="Proyecto">
+            <h2>Proyectos Tecnologicos</h2>
+            <article class="Proyectos">
+                <h3>SportK</h3>
+                <time datetime="2023-01-15">Enero 15, 2025</time>
+                <img src="images/New Project (1).png" alt="Logo">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem aut unde eveniet amet, dolorem dicta
+                    eius deserunt facere, inventore ipsum expedita delectus dolor temporibus fuga, ad vitae odio quam
+                    perspiciatis?</p>
+            </article>
+            <article class="Proyectos">
+                <h3>SportK</h3>
+                <time datetime="2023-01-15">Septiembre 15, 2025</time>
+                <img src="images\Kitty.png" alt="Logo">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem aut unde eveniet amet, dolorem dicta
+                    eius deserunt facere, inventore ipsum expedita delectus dolor temporibus fuga, ad vitae odio quam
+                    perspiciatis?</p>
+            </article>
+            <article class="Proyectos">
+                <h3>SportK</h3>
+                <time datetime="2023-01-15">Septiembre 15, 2025</time>
+                <img src="images\Kitty.png" alt="Logo">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem aut unde eveniet amet, dolorem dicta
+                    eius deserunt facere, inventore ipsum expedita delectus dolor temporibus fuga, ad vitae odio quam
+                    perspiciatis?</p>
+            </article>
+        </section>
+        <section>
+            <b>HOLAAA</b>
+            <h4>Mi nombre es <mark>Rendón Cocom Saúl Alejandro</mark>, <strong>en Tecnologías de la información</strong>
+            </h4>
+            <p><small>Mi frase favorita es <em>"Stay Strong"</em></small></p>
+        </section>
+        <section>
+            <button><a href="https://www.xbox.com/es-mx?msockid=20d034cf04dd602c204c22aa05cb61a3" target="_blank"
+                    rel="noopener">Xbox</a></button>
+        </section>
     </main>
+    <section id="habilidades">
+        <h2>Habilidades y Competencias</h2>
+        <h3>Lenguajes y Tecnologías</h3>
+        <ul class="lista">
+            <li>Javascript básico</li>
+            <li>C#</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Git</li>
+            <li>Bash</li>
+        </ul>
+        <h3>Nivel de dominio</h3>
+        <div>
+            <label>HTML5</label>
+            <progress max="100" value="80">80%</progress>
+        </div>
+        <div>
+            <label>Javascript</label>
+            <progress max="100" value="20">20%</progress>
+        </div>
+        <div>
+            <label>CSS</label>
+            <progress max="100" value="50">50%</progress>
+        </div>
+    </section>
     <footer>
-        <p>&copy Derechos reservados 2025</p>
+        <p>&copy; Derechos reservados 2025 - Rendón Cocom Saúl Alejandro</p>
+    </footer>
 </body>
 
 </html>
