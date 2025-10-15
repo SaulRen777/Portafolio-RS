@@ -1,108 +1,125 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio Profesional</title>
-    <link rel="stylesheet" href="css/main.css">
-</head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Professional Portfolio — Saúl Rendón</title>
+  <link rel="stylesheet" href="css/main.css">
+  <meta name="description" content="Professional portfolio of Saúl Rendón — software & web development.">
+ </head>
 
 <body>
-    <header>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1>Saúl Rendón — Portfolio</h1>
+        <p class="tagline">Software & Web Development</p>
+      </div>
+      <aside class="social">
+        <a href="https://github.com/elitesou1" aria-label="GitHub profile" class="icon-link">GitHub</a>
+        <a href="#" aria-label="Instagram profile" class="icon-link">Instagram</a>
+      </aside>
+    </div>
+  </header>
 
-        <h1>Portafolio Profesional</h1>
-        <p>Hello!!!</p>
-        <p><em>Este es mi portafolio web</em></p>
-    </header>
-    <nav>
-        <a href="#Proyecto">Proyectos</a>
-    </nav>
-    <main>
-        <section>
-            <h2>Bienvenidos a mi portafolio profesional</h2>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
-                rem
-                aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-                explicabo.
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-                dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
-                dolor
-                sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et
-                dolore
-                magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-                suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
-                qui in
-                ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas
-                nulla pariatur?</p>
-            <img src="images/foto-perfil.jpg" id="foto-perfil" alt="Foto de perfil">
-        </section>
-        <section id="Proyecto">
-            <h2>Proyectos Tecnologicos</h2>
-            <article class="Proyectos">
-                <h3>SportK</h3>
-                <time datetime="2023-01-15">Enero 15, 2025</time>
-                <img src="images/New Project (1).png" alt="Logo">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem aut unde eveniet amet, dolorem dicta
-                    eius deserunt facere, inventore ipsum expedita delectus dolor temporibus fuga, ad vitae odio quam
-                    perspiciatis?</p>
-            </article>
-            <article class="Proyectos">
-                <h3>SportK</h3>
-                <time datetime="2023-01-15">Septiembre 15, 2025</time>
-                <img src="images\Kitty.png" alt="Logo">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem aut unde eveniet amet, dolorem dicta
-                    eius deserunt facere, inventore ipsum expedita delectus dolor temporibus fuga, ad vitae odio quam
-                    perspiciatis?</p>
-            </article>
-            <article class="Proyectos">
-                <h3>SportK</h3>
-                <time datetime="2023-01-15">Septiembre 15, 2025</time>
-                <img src="images\Kitty.png" alt="Logo">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem aut unde eveniet amet, dolorem dicta
-                    eius deserunt facere, inventore ipsum expedita delectus dolor temporibus fuga, ad vitae odio quam
-                    perspiciatis?</p>
-            </article>
-        </section>
-        <section>
-            <b>HOLAAA</b>
-            <h4>Mi nombre es <mark>Rendón Cocom Saúl Alejandro</mark>, <strong>en Tecnologías de la información</strong>
-            </h4>
-            <p><small>Mi frase favorita es <em>"Stay Strong"</em></small></p>
-        </section>
-        <section>
-            <button><a href="https://www.xbox.com/es-mx?msockid=20d034cf04dd602c204c22aa05cb61a3" target="_blank"
-                    rel="noopener">Xbox</a></button>
-        </section>
-    </main>
-    <section id="habilidades">
-        <h2>Habilidades y Competencias</h2>
-        <h3>Lenguajes y Tecnologías</h3>
-        <ul class="lista">
-            <li>Javascript básico</li>
-            <li>C#</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Git</li>
-            <li>Bash</li>
-        </ul>
-        <h3>Nivel de dominio</h3>
-        <div>
-            <label>HTML5</label>
-            <progress max="100" value="80">80%</progress>
-        </div>
-        <div>
-            <label>Javascript</label>
-            <progress max="100" value="20">20%</progress>
-        </div>
-        <div>
-            <label>CSS</label>
-            <progress max="100" value="50">50%</progress>
-        </div>
+  <nav class="site-nav" role="navigation">
+    <div class="container nav-inner">
+      <ul class="nav-list" id="menu-principal">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <h2>Welcome to my professional portfolio</h2>
+        <p>I build practical software and web projects with a focus on maintainable code and clear design.</p>
+      </div>
+      <img src="images/foto-perfil.jpg" id="foto-perfil" alt="Profile photo">
     </section>
-    <footer>
-        <p>&copy; Derechos reservados 2025 - Rendón Cocom Saúl Alejandro</p>
-    </footer>
+
+    <section id="projects" class="projects">
+      <h2>Selected Projects</h2>
+      <div id="lista-proyectos" class="projects-grid">
+        <article class="project">
+          <h3>SportK</h3>
+          <time datetime="2025-01-15">Jan 15, 2025</time>
+          <img src="images/New Project (1).png" alt="SportK logo">
+          <p>Full-stack project focused on sports management and analytics.</p>
+        </article>
+
+        <article class="project">
+          <h3>Project Two</h3>
+          <time datetime="2025-09-15">Sep 15, 2025</time>
+          <img src="images/Kitty.png" alt="Project logo">
+          <p>Front-end work demonstrating responsive design and component reuse.</p>
+        </article>
+
+        <article class="project">
+          <h3>Project Three</h3>
+          <time datetime="2025-09-15">Sep 15, 2025</time>
+          <img src="images/Kitty.png" alt="Project logo">
+          <p>Tooling and automation to improve developer workflows.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2>Skills & Competencies</h2>
+      <h3>Languages & Technologies</h3>
+      <ul class="skills-list">
+        <li>Javascript (basic)</li>
+        <li>C#</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Git</li>
+        <li>Bash</li>
+      </ul>
+
+      <h3>Proficiency</h3>
+      <div class="proficiency">
+        <label>HTML5</label>
+        <progress max="100" value="80">80%</progress>
+        <label>Javascript</label>
+        <progress max="100" value="20">20%</progress>
+        <label>CSS</label>
+        <progress max="100" value="50">50%</progress>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <form action="https://formspree.io/f/mayzbpwp" method="POST" id="formulario-contacto" class="formulario-contacto">
+        <label for="nombre">Name</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Message</label>
+        <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+
+        <button type="submit">Send message</button>
+      </form>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About</h2>
+      <p>Saúl Rendón — IT professional focused on web development, software tooling and accessible user experiences.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Saúl Rendón — All rights reserved.</p>
+    </div>
+  </footer>
+
 </body>
 
 </html>
