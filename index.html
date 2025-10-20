@@ -7,7 +7,7 @@
   <title>Professional Portfolio — Saúl Rendón</title>
   <link rel="stylesheet" href="css/main.css">
   <meta name="description" content="Professional portfolio of Saúl Rendón — software & web development.">
- </head>
+</head>
 
 <body>
   <header class="site-header">
@@ -101,9 +101,37 @@
         <label for="email">Email</label>
         <input type="email" id="email" name="email" required>
 
-        <label for="mensaje">Message</label>
-        <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+        <label for="Phone">Phone</label>
+        <input type="tel" id="Phone" name="Phone">
 
+
+        <label>Event date</label>
+        <input type="date" id="date" name="date">
+
+        <label for="employees">Employees</label>
+        <input type="number" id="employees" name="employees" min="1">
+        <div class="Contact_Options">
+          <label for="contact">Contact Options</label><br>
+          <input type="checkbox" class="Opciones"><span>LITIID41</span>
+          <input type="checkbox" class="Opciones"><span>LITIID42</span>
+        </div>
+        <label>Are you a client?</label>
+        <input type="radio" id="yes" name="client" value="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="client" value="no">
+        <label for="no">No</label>
+        <label for="motive">Motive</label>
+        <select name="motive" id="motive" required>
+          <option value="" disabled selected>Select a reason</option>
+          <option value="work">Work Opportunity</option>
+          <option value="collaboration">Collaboration</option>
+          <option value="other">Other</option>
+        </select>
+
+        <label for="mensaje">Message</label>
+        <textarea id="mensaje" name="mensaje" rows="6" required ></textarea>
+          <label>Fotografía</label>
+          <input type="file" id="fotografia" name="fotografia" accept="image/*">
         <button type="submit">Send message</button>
       </form>
     </section>
